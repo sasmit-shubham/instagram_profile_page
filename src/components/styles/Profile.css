@@ -1,0 +1,99 @@
+body{
+    background: #fafafa;
+    width: 100%;
+}
+.profile_main_container{
+    width: 70%;
+    margin: auto;
+}
+
+.profile_wrapper{
+    width: 100%;
+    margin-left:15%;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 25% 50%;
+    margin-bottom: 8vh;
+}
+
+.profile_picture{
+    /* border: 2px solid red; */
+    height: 100%;
+    padding: 10vh;
+}
+
+.profile_details{
+    /* border: 2px solid green; */
+    height: 100%;
+    padding-top:10vh;
+    margin-top: -10px;
+}
+
+.user_name_edit_wrapper{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 40% 25% 12% 8% 10%;
+    margin-bottom: 4vh;
+}
+.user_full_name_edit_wrapper{
+    width: 70%;
+    display: grid;
+    grid-template-columns:40%;
+    margin-bottom: 4vh;
+}
+.user-details-wrapper{
+    display: grid;
+    margin-bottom: 4vh;
+}
+
+.user_name{
+    font-size: 1.5rem;
+    width: 100%;
+    /* border:1px dotted red; */
+}
+
+.edit_btn_div{
+    /* border: 1px solid gray; */
+    text-align: center;
+}
+.edit_btn{
+    width: 90%;
+    height: 4vh;
+    font-weight: bold;
+    padding: auto;
+}
+
+.setting_btn{
+   padding-left: 0.5rem; 
+}
+.tablist{
+    display: grid;
+    grid-template-columns: 30% 10% 30%;
+    font-size: 1.2rem;
+    margin-left: 15%;
+    justify-content: center;
+}
+
+.post_follower_wrapper{
+    display: grid;
+    width:70% ;
+    /* margin-left: 50px; */
+    /* border: 1px solid red; */
+    grid-template-columns:30% 36% 33%;
+    margin-bottom: 4vh;
+}
+
+
+
+.posts_wrapper{
+    width: 80%;
+    margin-left:15%;
+    /* height: 1000vh; */
+    /* border: 2px solid gray; */
+    /* margin-left: 25%; */
+    display: grid;
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    gap: 1.7rem;
+    margin-top: 8vh;
+}
+
