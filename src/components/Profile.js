@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import "./styles/Profile.css";
 import Gallery from "./gallery/Gallery"
 import Sidebar from "./sidebar/Sidebar";
+import { Avatar } from "@mui/material";
 
 function Profile() {
   // const [user, setUser] = useState([]);
@@ -30,7 +31,12 @@ function Profile() {
       <div className="profile_main_container">
         <div className="profile_wrapper">
           <div className="profile_picture">
-          
+          <Avatar
+              style={{ width: "10rem", height: "22vh" }}
+              className="suggestion_user_avatar"
+              alt="Remy Sharp"
+              src={user?.profile_picture}
+            />
           </div>
           <div className="profile_details">
             <div className="user_name_edit_wrapper">
