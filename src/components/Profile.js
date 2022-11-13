@@ -21,7 +21,7 @@ function Profile() {
   // },[]);
   // console.log(user);
   const user={
-    profile_picture:"../images/anushka-and-virat-profile-pic.webp",
+    profile_picture:"..//images//anushka-and-virat-profile-pic.webp",
     full_name:"Virat Kohli",
     username:"virat.kohli"
   }
