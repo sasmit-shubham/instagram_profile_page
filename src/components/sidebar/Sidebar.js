@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import {
-    FaBars,
-}from "react-icons/fa";
 import { NavLink, Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import "../styles/Sidebar.css"
