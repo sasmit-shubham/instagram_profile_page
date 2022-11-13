@@ -44,7 +44,7 @@ main{
     transition: all 0.5s;
 }
 .link:hover{
-    width: 90%;
+    width:70%;
     border-radius:20px;
     background:#eae7e7;
     color: #000;
