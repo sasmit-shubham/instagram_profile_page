@@ -97,3 +97,31 @@ body{
     margin-top: 8vh;
 }
 
+@media (max-width:1300px){
+    .profile_main_container{
+        width: 100%;
+        margin: auto;
+    }
+    .profile_wrapper{
+        width: 100%;
+        display: grid;
+        height: 100%;
+        grid-template-columns: 25% 50%;
+        margin-bottom: 8vh;
+    }
+    .user_name_edit_wrapper{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 40% 25% 12% 8% 10%;
+        margin-bottom: 4vh;
+    }
+    .post_follower_wrapper{
+        display: grid;
+        width:90% ;
+        /* margin-left: 50px; */
+        /* border: 1px solid red; */
+        grid-template-columns:30% 36% 33%;
+        margin-bottom: 4vh;
+    }
+}
+

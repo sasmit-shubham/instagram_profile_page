@@ -56,13 +56,13 @@ function Profile() {
             </div>
             <div className="post_follower_wrapper">
               <div className="posts">
-                <strong>11</strong> posts
+                <strong>10</strong> posts
               </div>
               <div className="followers">
-                <strong>5</strong> followers
+                <strong>223M</strong> followers
               </div>
               <div className="following">
-                <strong>39</strong> following
+                <strong>261</strong> following
               </div>
             </div> 
             <div className="user_full_name_edit_wrapper">
