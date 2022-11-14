@@ -6,20 +6,6 @@ import Sidebar from "./sidebar/Sidebar";
 import { Avatar } from "@mui/material";
 
 function Profile() {
-  // const [user, setUser] = useState([]);
-  
-
-  // useEffect(() => {
-  //   let token = JSON.parse (localStorage.getItem ('user'));
-  //   console.log(token);
-  //   fetch(`https://instagram-backend-dipu1-app.herokuapp.com/user/${token[0]}`)
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       setUser(data);
-  //       console.log(data);
-  //     })
-  // },[]);
-  // console.log(user);
   const user={
     profile_picture:"..//images//anushka-and-virat-profile-pic.webp",
     full_name:"Virat Kohli",

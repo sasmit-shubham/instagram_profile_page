@@ -9,7 +9,7 @@ const Sidebar = ({children}) => {
     const[isOpen ,setIsOpen] = useState(true);
     // setIsOpen(true);
 
-    const toggle = () => setIsOpen (!isOpen);
+    // const toggle = () => setIsOpen (!isOpen);
     const menuItem=[
         {
             path:"/home",

@@ -21,14 +21,6 @@
 // //     console.log(token);
     
 
-// //     fetch(`https://instagram-backend-dipu1-app.herokuapp.com/user/${token[0]}`)
-// //       .then((res) => res.json())
-// //       .then((data) => {
-// //         setUser(data);
-// //         console.log(data);
-// //       })
-// //     },[]);
-// //  console.log(user);
 
 //   return (
 
